@@ -1,5 +1,6 @@
 import React from "react";
+import "../../Styles/LeftContent.css";
 
 export default function LeftContent() {
-	return <div>LeftContent</div>;
+	return <div className='container leftContent'>LeftContent</div>;
 }
